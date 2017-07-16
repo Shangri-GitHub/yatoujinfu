@@ -1,0 +1,523 @@
+@charset "UTF-8";
+.home {
+    height: 100%;
+    width: 100%;
+    background: #fafbff;
+}
+.home .header{
+    width: 1010px;
+    margin:0 auto;
+    height: 50px;
+    position: relative;
+    background: #fff;
+    font-size: 14px;
+    background: #fafbff;
+}
+.home input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #333;
+}
+.home .item3 img,.home .item2 img,.home .item4 .product img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.home .welcome {
+    width: 270px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    line-height: 50px;
+    color: #333333;
+    padding-left: 30px;
+    background: url("../../../../theme/default/images/login/logo-jinfu.png") 2px 14px no-repeat;
+}
+
+.home .login {
+    margin-left: 32px;
+    display: inline-block;
+    padding-left: 30px;
+    color: #fc511f;
+    background: url("../../../../theme/default/images/login/user.png") 0 14px no-repeat;
+    font-size: 14px;
+}
+
+.home .login:hover {
+    cursor: pointer;
+    color: #d4451b;
+}
+
+.home .el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+}
+
+.home .el-carousel__item {
+    width: 100%;
+    background: url("../../../../theme/default/images/login/banner.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.home .container {
+    width: 1010px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.home .container .item1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 354px;
+    border-top: 2px solid #53a0e3;
+    background: #ffffff;
+}
+
+.home .container .item1 .big-circle1 {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 267px;
+    height: 267px;
+    border-radius: 50%;
+    border: 1px #fd6a4d solid;
+}
+
+.home .container .item1 .big-circle2 {
+    position: absolute;
+    top: 20px;
+    left: 346px;
+    width: 267px;
+    height: 267px;
+    border-radius: 50%;
+    border: 1px #fd6a4d solid;
+}
+
+.home .container .item1 .big-circle3 {
+    position: absolute;
+    top: 20px;
+    left: 682px;
+    width: 267px;
+    height: 267px;
+    border-radius: 50%;
+    border: 1px #fd6a4d solid;
+}
+
+.home .container .item1 .inside-circle {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 252px;
+    height: 252px;
+    border-radius: 50%;
+    background: #fdfaf7 url("../../../../theme/default/images/login/hat.png") 7px 0 no-repeat;
+}
+
+.home .container .item1 .inside-circle .number, .home .container .item1 .inside-circle .unit, .home .container .item1 .inside-circle .title {
+    text-align: center;
+    width: 252px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.home .container .item1 .inside-circle .number {
+    top: 120px;
+    color: #fd6a4c;
+}
+
+.home .container .item1 .inside-circle .title {
+    color: #ffffff;
+    top: 24px;
+    font-size:18px;
+}
+
+.home .container .item1 .inside-circle .unit {
+    color: #5d5d5d;
+    top: 164px;
+    font-size: 18px;
+}
+
+.home .container .item1 .inside-circle .sale {
+    position: absolute;
+    left: 78px;
+    top: 217px;
+    z-index: 88;
+    width: 88px;
+    height: 75px;
+    background: url("../../../../theme/default/images/login/sale.png") 0px 0 no-repeat;
+}
+
+.home .container .item1 .inside-circle .shadow {
+    position: absolute;
+    left: 38px;
+    top: 250px;
+    width: 180px;
+    height: 45px;
+    background: url("../../../../theme/default/images/login/shadow.png") 0px 0 no-repeat;
+}
+
+.home .container .item2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 173px;
+    border-top: 2px solid #53a0e3;
+    background: #ffffff;
+}
+
+.sub_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+.home .container .button {
+    margin-top: 5px;
+    width: 125px;
+    height: 47px;
+    border-radius: 4px;
+    background: #57a1e0;
+    border: 2px solid #49a1ec;
+    line-height: 49px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home .container .item2 .unit {
+    font-size: 18px;
+    float: left;
+    color: #5d5d5d;
+    position: relative;
+    left: 164px;
+    top: -38px;
+}
+
+.home .container .item2 .line {
+    width: 0px;
+    height: 85px;
+    border: solid 1px #e0e0e0;
+    position: relative;
+    left: 233px;
+    top: -82px;
+}
+
+.home .container .item3 {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 362px;
+    border-top: 2px solid #ff9b00;
+    background: #fff;
+    /*background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 179, 147, 0.2) 100%);*/
+}
+
+.home .container .item3 .product {
+    width: 290px;
+    height: 100%;
+    display: inline-block;
+}
+
+.home .container .item3 .product .title {
+    margin-top: 49px;
+    text-align: center;
+    font-size: 24px;
+    color: #ff9368;
+    font-weight: bold;
+
+}
+
+.home .container .item3 .introductions {
+    width: 360px;
+    height: 100%;
+}
+
+.home .container .item3 .introductions .title, .home .container .item3 .car .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+    margin: 33px 0 10px 60px;
+}
+
+.home .container .item3 .introductions .sub_title, .home .container .item3 .car .sub_title {
+    font-size: 14px;
+    color: #656565;
+    font-weight: 500;
+}
+
+.home .container .item3 .detail {
+    margin-top: 8px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #3b3b3b;
+    line-height: 28px;
+    height: 28px;
+    display: inline-block;
+    background: url("../../../../theme/default/images/login/sanjiao.png") 0px 6px no-repeat;
+
+}
+
+.home .container .item3 .view {
+    cursor: pointer;
+    color: #ff9368;
+    float: right;
+    margin: 80px 28px 0 0;
+    font-size: 12px;
+}
+
+.home .container .item4 .view {
+    cursor: pointer;
+    color: #ff9368;
+    float: right;
+    margin-right: 12px;
+    font-size: 12px;
+}
+
+.home .container .item3 .car {
+    width: 360px;
+    height: 100%;
+
+}
+
+.home .container .item3 .car .more {
+    cursor: pointer;
+    height: 46px;
+    float: right;
+    margin-right: 14px;
+    line-height: 46px;
+    font-size: 12px;
+    color: #666;
+}
+
+.home .container .item3 .line {
+    width: 0px;
+    height: 320px;
+    /*border: solid 1px #e0e0e0;*/
+    position: relative;
+    left: 0px;
+    top: -258px;
+    position: relative;
+}
+.home .container .item3 .line:after{
+    content: "";
+    width:1px;
+    height: 306px;
+    background-color: #e0e0e0;
+    position: absolute;
+    left: 0;
+}
+
+.home .container .item4 {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 406px;
+    border-top: 2px solid #ff9b00;
+    background-color: #ffffff;
+    /*background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(241, 255, 223, 1) 100%);*/
+}
+
+.home .container .item4 .product {
+    width: 290px;
+    height: 100%;
+    display: inline-block;
+}
+
+.home .container .item4 .product .title {
+    margin-top: 74px;
+    text-align: center;
+    font-size: 24px;
+    color: #ff9368;
+    font-weight: bold;
+
+}
+
+.home .container .item4 .card1 {
+    position: absolute;
+    left: 288px;
+    top: 30px;
+    width: 320px;
+    height: 334px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(134, 134, 134, 0.76);
+    border-radius: 9px;
+}
+
+.home .container .item4 .card2 {
+    position: absolute;
+    left: 671px;
+    top: 30px;
+    width: 320px;
+    height: 334px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(134, 134, 134, 0.76);
+    border-radius: 9px;
+}
+
+.home .container .item4 .time {
+    font-size: 14px;
+    color: #565d67;
+    margin: -24px 0 0 45px;
+
+}
+
+.home .container .item4 .amount {
+    font-size: 17px;
+    color: #0d9fa4;
+    margin: 24px 0 0 45px;
+}
+
+.new-person {
+    position: absolute;
+    top: -20px;
+    left: 290px;
+}
+
+.home .footer {
+    height: 197px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    background: #fafbff;
+}
+.home .footer .contain{
+    width: 1010px;
+    margin: 0 auto;
+    height: 100%;
+}
+.home .footer .item{
+    width: 202px;
+    height: 100%;
+    float: left;
+}
+.home .footer .item .tool{
+    width: 202px;
+    text-align: center;
+   font-size: 14px;
+    color: #555;
+}
+.home .footer .item .telphone{
+    width: 202px;
+    text-align: center;
+    font-size: 15px;
+    color: #616161;
+}
+.home .footer .item .cord{
+    width: 226px;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    font-size: 14px;
+}
+/***model****/
+.custom-login {
+    width: 400px;
+    height: 250px;
+}
+
+.custom-login .login-button {
+    border: none;
+}
+
+.custom-login .el-button:hover {
+    border-color: rgba(227, 0, 0, 1);
+    background: url("../../../../theme/default/images/login/login-btn-hover.png");
+}
+
+.custom-login .circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    left: 138px;
+    top: -56px;
+}
+
+.custom-login img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.custom-login .el-dialog__header {
+    padding: 0
+}
+
+.custom-login .el-dialog__body {
+    padding: 0 90px;
+
+}
+
+.custom-login .login-title {
+    margin-top: 86px;
+}
+
+.custom-login .login-input {
+    width: 218px;
+    height: 29px;
+    position: absolute;
+    border-radius: 2px;
+
+    /*border: 1px solid #666666;*/
+}
+
+.custom-login .user:focus {
+    outline: none;
+    border:1px #e30000 solid;
+}
+
+.custom-login .login-input img {
+    position: absolute;
+    top: 1px;
+    left: 28px;
+}
+
+.custom-login i {
+    position: absolute;
+    padding: 8px 10px;
+}
+
+.custom-login .user {
+    padding-left: 34px;
+    width: 188px;
+    height: 100%;
+    border:1px #9b9b9b solid;
+}
+
+.custom-login .forget-password {
+    font-size: 12px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.custom-login .el-dialog__footer {
+    text-align: center;
+}
+
+.custom-login .el-button--primary {
+    margin-left: 90px;
+}
+
+.custom-login .login-button {
+    margin-left: 143px;
+    padding: 8px 9px;
+    width: 68px;
+    color: white;
+    background: url("../../../../theme/default/images/login/login-btn.png");
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+

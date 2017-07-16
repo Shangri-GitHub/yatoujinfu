@@ -1,0 +1,680 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft YaHei !important;
+}
+
+img, .big-img-content {
+    -webkit-touch-callout: none; /* iOS Safari */
+
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+
+    -khtml-user-select: none; /* Konqueror */
+
+    -moz-user-select: none; /* Firefox */
+
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body, html {
+    min-width: 1275px;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.el-table th {
+    background-color: rgb(238, 241, 246) !important;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+.el-table tbody tr td:last-child {
+    text-align: left;
+}
+
+.el-table tbody tr td:last-child .info-icon:first-child {
+    margin-left: 0;
+}
+
+.el-table {
+    color: #222;
+}
+
+.el-button--text {
+    color: #3b6188;
+}
+
+.el-button--text:hover {
+    color: #528bbd;
+}
+
+.el-table th {
+    background-color: #ffffff;
+}
+
+button {
+    outline: none;
+}
+
+#header {
+    width: 100%;
+    height: 38px;
+    background: #f2efef;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    z-index: 2500;
+}
+
+.header-left {
+    width: 140px;
+    height: 38px;
+    float: left;
+}
+
+.header-left-logo {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 4px;
+    background: url(../images/nav/logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-logo-text {
+    float: left;
+    width: 80px;
+    height: 26px;
+    margin-left: 14px;
+    margin-top: 10px;
+    background: url(../images/nav/logo-text.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-right-login {
+    float: right;
+    width: auto;
+    height: 38px;
+    margin-right: 64px;
+    font-size: 14px;
+    color: #222;
+}
+.pending-tip{
+	width: auto;
+	height: 100%;
+    margin-right: 32px;
+	font-size: 14px;
+	line-height: 38px;
+	float: left;
+	position: relative;
+}
+.pending-tip p{
+	width: auto;
+}
+.pending-tip span{
+	width: 16px;
+	height: 16px;
+	float: left;
+	position: absolute;
+	left: -22px;
+	margin-top: 12px;
+	background: url(../images/message-tip.png) no-repeat;
+    background-size: 100% 100%;
+}
+.login-status {
+    width: 108px;
+    height: 16px;
+    margin-top: 11px;
+    line-height: 16px;
+    float: left;
+    background: url(../images/user-tri.png) no-repeat right center;
+    position: relative;
+}
+
+.login-box {
+    width: 108px;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.login-hover {
+    width: 108px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    display: none;
+    color: #fff;
+    background: rgba(28, 42, 54, 0.9);
+}
+
+.login-control, .pw-change {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+.pw-change {
+    border-bottom: 1px solid #192129;
+}
+
+.pw-change p,
+.login-control p {
+    float: left;
+    line-height: 50px;
+    margin-left: 6px;
+}
+
+.login-box:hover .login-hover {
+    display: block;
+}
+
+.login-status span {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 6px;
+    background: url(../images/nav/login.png) no-repeat;
+}
+
+.login-control span {
+    width: 14px;
+    height: 14px;
+    margin-left: 16px;
+    margin-top: 18px;
+    float: left;
+    background: url(../images/cancle-normal.png) no-repeat;
+}
+
+.pw-change span {
+    width: 14px;
+    height: 14px;
+    margin-left: 16px;
+    margin-top: 18px;
+    float: left;
+    background: url(../images/pw-change-normal.png) no-repeat;
+}
+
+.pw-change:hover p {
+    color: #ff3f4f;
+}
+
+.pw-change:hover span {
+    background: url(../images/pw-change-hover.png) no-repeat;
+}
+
+.login-control:hover p {
+    color: #ff3f4f;
+}
+
+.login-control:hover span {
+    background: url(../images/cancle-hover.png) no-repeat;
+}
+
+#nav {
+    width: 176px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 38px;
+    background: #1c2a36;
+    z-index: 998;
+}
+
+.nav-list-ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 36px;
+}
+
+.nav-list {
+    width: 100%;
+    height: 34px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 14px;
+    line-height: 34px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-list a {
+    width: 140px;
+    color: #fff;
+    height: 43px;
+    float: left;
+    text-indent: 10px;
+}
+
+.nav-list p {
+    width: 140px;
+    color: #fff;
+    height: 43px;
+    float: left;
+    text-indent: 10px;
+}
+
+.nav-list img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-top: 10px;
+}
+
+.nav-list:hover {
+    background: #16222c;
+}
+
+.nav-list-ul .nav-list-active {
+    background: #16222c;
+}
+
+.nav-list-active:after {
+    content: '';
+    width: 2px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ca0814;
+}
+
+#content-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-left: 176px;
+    padding-top: 38px;
+}
+
+#cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(28, 42, 54, 0.5);
+    z-index: 1000;
+    display: none;
+}
+
+.v-modal {
+    margin-top: 39px;
+}
+
+td {
+    text-align: center;
+}
+
+thead tr th div {
+    text-align: center;
+}
+
+.el-message {
+    top: 0px;
+    padding: 9px 12px;
+    left: 60%;
+    z-index: 9999 !important;
+}
+
+.el-carousel__indicator {
+    padding: 7px 4px;
+}
+
+.el-pagination__editor {
+    width: 30px !important;
+}
+
+.el-input.is-disabled .el-input__inner {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.content-bdlb input.readonly {
+    outline-style: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.content-bdlb .cell span:nth-of-type(1) {
+    margin-left: 0 !important;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+/*解决蓝线的问题*/
+.el-dialog__wrapper:focus {
+    outline: 0 none;
+}
+
+.must-input {
+    position: relative;
+}
+
+.must-input:before {
+    content: "*";
+    color: #f31313;
+    font-size: 19px;
+    position: absolute;
+    left: -14px;
+    top: 3px;
+
+}
+
+.el-dialog__wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.el-checkbox .el-checkbox__inner::after {
+    transition: -webkit-transform .15s cubic-bezier(.71, -.46, .88, .6) .01s;
+    transition: transform .01s cubic-bezier(.71, -.46, .88, .6) .01s;
+    transition: transform .01s cubic-bezier(.71, -.46, .88, .6) .01s, -webkit-transform .01s cubic-bezier(.71, -.46, .88, .6) .01s;
+}
+
+.refuseDialog .el-textarea {
+    width: 100% !important;
+    height: 92px;
+}
+
+.refuseDialog .el-dialog__body {
+    padding: 30px 20px !important;
+}
+
+.stage-dialog-3 .refuseDialog .el-textarea__inner {
+}
+
+.first-comment .refuseDialog textarea,
+.stage-dialog-3 .refuseDialog textarea {
+    width: 100%;
+
+}
+
+.refuseDialog textarea {
+    width: 100%;
+    height: 92px;
+}
+
+.refuseDialog {
+    left: 25% !important;
+    top: 100px !important;
+    overflow: hidden !important;
+}
+
+.refuseDialog .el-dialog__headerbtn .el-dialog__close {
+    display: none;
+}
+
+.refuseDialog .el-dialog__title {
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+}
+
+.refuseDialog .el-dialog {
+    width: 452px !important;
+    padding-top: 0 !important;
+}
+
+.refuseDialog .el-dialog__header {
+    background: #efefef;
+    height: 34px;
+    padding: 0 20px 0 !important;
+    line-height: 40px;
+    display: block !important;
+}
+
+.refuseDialog .el-dialog__headerbtn {
+    padding: 0;
+    border: 0;
+    width: auto;
+}
+
+.refuseDialog .el-dialog__footer .refuse-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.refuseDialog .el-dialog__footer button {
+    width: 94px;
+    background: #fff;
+}
+
+.refuseDialog .el-dialog__footer {
+    text-align: justify;
+}
+
+.refuse-title {
+}
+
+.refuse-warning {
+    float: left;
+    width: 17px;
+    height: 28px;
+    background: url(../images/refuse-icon.png) no-repeat left center;
+    margin-right: 18px;
+}
+
+.refuse-tip {
+    font-size: 14px;
+    height: 28px;
+    float: left;
+    line-height: 28px;
+}
+
+.changePwDialog .el-dialog__footer button:nth-of-type(1):hover,
+.refuseDialog .el-dialog__footer button:nth-of-type(1):hover {
+    background: #fff;
+    border-color: #f7ba2a;
+    color: #f7ba2a;
+}
+
+.changePwDialog .el-dialog__footer button:nth-of-type(2):hover,
+.refuseDialog .el-dialog__footer button:nth-of-type(2):hover {
+    color: #20a0ff;
+    border-color: #20a0ff;
+}
+
+.changePwDialog .el-dialog,
+.refuseDialog .el-dialog {
+    top: 0 !important;
+    height: 100%;
+}
+
+.changePwDialog {
+    top: 15%;
+    left: 35%;
+    border-radius: 6px;
+}
+
+.changePwDialog .el-dialog--small {
+    width: 100%;
+    height: 100%;
+}
+
+.changePwDialog .el-input {
+    width: 276px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+
+.changePwDialog .el-input__inner {
+    width: 276px;
+    height: 38px;
+}
+
+.changePwDialog .el-dialog__header button {
+    margin-top: 10px;
+}
+
+.changePwDialog .el-dialog__footer > span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.changePwDialog .el-dialog__footer button {
+    background: #fff;
+    color: #222;
+    border: 1px solid rgb(191, 203, 217);
+}
+
+.changePwDialog .el-dialog__header {
+    background: #efefef url(../images/modify-pwd.png) no-repeat 10px center;
+    background-size: 18px 18px;
+    padding-top: 0;
+    text-indent: 20px;
+    height: 34px;
+}
+
+.changePwDialog .el-dialog__header .el-dialog__title {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+
+.changePwDialog p {
+    width: 276px;
+    margin-left: 68px;
+    height: 20px;
+    text-indent: 20px;
+    margin-bottom: 8px;
+    background: url(../images/pw-change-c.png) no-repeat left center;
+}
+
+.changePwDialog .el-dialog__body {
+    padding-bottom: 0;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.el-icon-plus:before,
+.el-icon-minus:before {
+    color: rgb(72, 87, 106);
+}
+
+.big-img-content .tb-left,
+.big-img-content .tb-right,
+.big-img-content .tb-big,
+.big-img-content .tb-small {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.big-img-content .tool-img {
+    width: 300px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.big-img-content .tb-big {
+    right: 70px;
+    width: 16px;
+    height: 16px;
+    background: url("../../default/images/big-img.png") no-repeat;
+}
+
+.big-img-content .tb-small {
+    right: 120px;
+    width: 16px;
+    height: 16px;
+    background: url("../../default/images/small-img.png") no-repeat center;
+}
+
+.big-img-content .tb-left {
+    right: 218px;
+    width: 16px;
+    height: 16px;
+    background: url("../../default/images/rotate-left.png") no-repeat;
+}
+
+.big-img-content .tb-right {
+    right: 170px;
+    width: 16px;
+    height: 16px;
+    background: url("../../default/images/rotate-right.png") no-repeat;
+}
+
+textarea:disabled:hover {
+    border-color: rgb(191, 203, 217)
+}
+
+.el-textarea__inner {
+    resize: none;
+}
+.export-icon {
+    margin-right: 4px;
+    width: 12px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../images/export-icon.png') no-repeat;
+}
+.export-btn a{
+    color: #3b6188;
+}

@@ -1,0 +1,626 @@
+
+#files {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mortgage .el-input--mini .el-input__inner {
+    height: 28px;
+    border-radius: 4px;
+}
+.mortgage .el-input--mini .el-input__inner {
+    width: 100%;
+}
+
+.m-time input {
+    font-size: 14px;
+    color: #333;
+    padding-left: 0;
+    height: 27px;
+}
+
+.mortgage textarea.readonly {
+    outline-style: none;
+    /*border: none;*/
+    background-color: #ffffff;
+}
+
+.mortgage textarea {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    color: #333;
+}
+.mortgage .line.jdyy span{
+    color: red!important;
+    height: 28px;
+    line-height: 28px;
+}
+.mortgage .jdyy-title{
+    float: left;
+}
+.mortgage .line.jdyy span.jdyy-con{
+    width: 678px!important;
+}
+.mortgage input {
+    width: 80%;
+    height: 28px;
+    /*display: inline-block;*/
+    padding-left: 10px;
+}
+
+.mortgage select {
+    padding-left: 6px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    height: 25px;
+    border: 1px solid rgb(191, 203, 217);
+}
+
+.mortgage input.readonly, .mortgage select.readonly {
+    outline-style: none;
+    border: none;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+.mortgage .button {
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.mortgage .text-area-dy textarea{
+    outline:none;
+    /*border: none;*/
+}
+.mortgage .button .el-button {
+    width: 94px;
+    border-radius: 2px;
+}
+
+.mortgage .button .el-button {
+    width: 94px;
+    border-radius: 2px;
+}
+
+.mortgage .order-infor,
+.evaluation-one,
+.mortgage-t {
+    margin: 0px 14px 20px 14px;
+    background-color: #ffffff;
+}
+
+.mortgage .order-infor .content,
+.evaluation-one .content,
+.mortgage-t .content {
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.mortgage .title {
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background: url("../../images/nav/longbg.png") no-repeat 0 center;
+    position: relative;
+    padding-left: 45px;
+}
+
+.mortgage .title:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 2px;
+}
+
+.mortgage .modal-content .title:nth-child(1):after {
+    background: url("../../images/nav/diya.png") no-repeat 0px center;
+}
+
+.mortgage .order-infor {
+    padding-bottom: 20px;
+    /*height: 513px;*/
+}
+
+.mortgage .order-infor .el-date-editor.el-input {
+    width: 210px;
+}
+
+.mortgage .dysp .order-infor {
+    /*height: 580px;*/
+}
+
+.mortgage .evaluation-one {
+    height: 135px;
+}
+
+.mortgage .mortgage-t {
+    height: 690px;
+}
+
+.mortgage .line {
+    height: 39px;
+}
+
+.mortgage .line span {
+    /*display: inline-block;*/
+    height: 39px;
+    line-height: 39px;
+    float: left;
+}
+
+.mortgage .line span:nth-child(1) {
+    width: 165px;
+    color: #666;
+}
+.mortgage .stage-dialog-5 .line span:nth-child(1) {
+    width: 165px;
+    color: #666;
+}
+.mortgage .line span:nth-child(2) {
+    width: 260px!important;
+    color: #333333;
+}
+
+.mortgage .line span.bulid-org {
+    width: 500px;
+}
+
+.mortgage .stage-dialog-5 .line span:nth-child(3) {
+    width: 150px;
+    color: #666;
+}
+
+.mortgage .line span:nth-child(4) {
+    width: 260px!important;
+    color: #333;
+}
+
+.mortgage .line span:nth-child(5) {
+    width: 129px;
+    color: #666;
+}
+
+.mortgage .mortgage-t .line span:nth-child(5) {
+    width: 130px;
+}
+
+.mortgage .line span:nth-child(6) {
+    width: 100px;
+    color: #333;
+}
+
+.mortgage .line0 {
+    margin-top: 8px;
+    height: 80px;
+}
+
+.mortgage .line0 .my-slider,
+.line0 span {
+    display: inline-block;
+    float: left;
+    height: 80px;
+}
+
+.mortgage .line0 span {
+    vertical-align: top;
+    width: 165px;
+}
+.mortgage .stage-dialog-5 .line0 span {
+    vertical-align: top;
+    width: 165px;
+}
+
+.mortgage .text-area {
+    width: 674px;
+    position: relative;
+    float: left;
+}
+.mortgage .up-load-content{
+    height: 45px;
+}
+
+.mortgage .dysp textarea:first-child {
+    height: 105px;
+}
+
+.mortgage .dysp .line0 {
+    height: 122px;
+}
+.mortgage .up-load .el-input{
+    width: 578px!important;
+}
+.mortgage .up-load .el-input input{
+    width: 100%;
+}
+.mortgage .up-load,
+.up-load div {
+    float: left;
+    height: 45px;
+    width: 100%;
+    /*display: flex;*/
+}
+
+.mortgage .up-load div:first-child {
+    width: 165px;
+}
+.mortgage .down-load{
+
+}
+.mortgage .down-load .name{
+    width: 165px;
+    float: left;
+}
+.mortgage .down-load .down-load-selected{
+    width: 700px;
+    display: inline-block;
+}
+.mortgage .down-load-content{
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+
+.mortgage .up-load input {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mortgage .up-load-selected {
+    width: 700px;
+    margin-left: 165px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.mortgage .up-load-selected span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url("../../images/nav/delete-upload.png") no-repeat right center;
+    vertical-align: middle;
+    margin-left: 10px;
+    /*cursor: pointer;*/
+}
+.mortgage .down-load-content a:hover {
+    cursor: pointer;
+    color: #07f!important;
+    border-bottom: 1px solid #07f!important;
+}
+.mortgage form {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#btn {
+    width: 90px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+}
+
+.mortgage .dysp .up-load .up-load-bg {
+    display: inline-block;
+    height: 28px;
+    margin-top: 3px;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    background:#20a0ff ;
+    width: 80px;
+    position: relative;
+    width: 98px;
+    height: 33px;
+    border-radius: 4px;
+    line-height: 33px;
+}
+.mortgage .dysp .up-load .up-load-bg:hover {
+    background: #4db3ff;
+}
+.mortgage .dysp .up-load input {
+    height: 30px;
+}
+
+.mortgage .mortgage-t .my-slider {
+    width: 540px;
+}
+
+.mortgage .my-slider .left,
+.my-slider .right {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.mortgage .my-slider .left {
+    left: -30px;
+    background: url("../../images/nav/left.png") no-repeat;
+}
+
+.mortgage .my-slider .right {
+    background: url("../../images/nav/right.png") no-repeat;
+    right: -30px;
+}
+
+.mortgage .my-slider .area {
+    width: 120px;
+    height: 80px;
+    background-color: #E5E5E5;
+    float: left;
+}
+
+/*——————————————————————*/
+
+.mortgage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.mortgage .modal-content {
+    width: 100%;
+}
+
+.mortgage .loan-user-edit {
+    width: 100%;
+    top: 0 !important;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*height: 633px;*/
+}
+
+.mortgage .dysp .loan-user-edit {
+    /*height: 701px;*/
+}
+
+.mortgage .el-dialog__wrapper {
+    width: 1080px;
+    height: 100%;
+    position: absolute;
+    left: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mortgage .el-dialog__header {
+    display: none;
+}
+
+.mortgage .el-dialog__body {
+    padding: 0;
+}
+
+.mortgage .el-table__body-wrapper {
+    overflow-x: hidden;
+}
+
+.mortgage .bdlb-top-more {
+    width: 100%;
+    height: 48px;
+    display: none;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background: #fff;
+}
+
+.mortgage .bdlb-top-more ul {
+    width: 960px;
+    height: 48px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.mortgage .bdlb-top-more ul li {
+    float: left;
+    width: auto;
+    height: 48px;
+}
+
+.mortgage .bdlb-top-more ul li span {
+    float: left;
+    line-height: 48px;
+}
+
+.mortgage .bdlb-top-more ul li input {
+    margin-top: 10px;
+}
+
+.mortgage .mortgage {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 0;
+    position: relative;
+}
+
+.mortgage .top {
+    width: 100%;
+    height: 76px;
+    z-index: 997;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+
+
+.mortgage .top .bdlb-top-ul {
+    width: 850px;
+    height: 100%;
+    float: left;
+}
+
+.mortgage .top .bdlb-top-ul li {
+    width: auto;
+    float: left;
+    height: 76px;
+    font-size: 14px;
+    line-height: 76px;
+}
+
+.mortgage .top li span {
+    float: left;
+    width: auto;
+    margin-left: 20px;
+}
+
+.mortgage .top li input {
+    width: 150px;
+    height: 28px;
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    border: 1px solid #ccc;
+    text-indent: 4px;
+}
+
+.mortgage .bdlb-top-more-btn {
+    width: 40px;
+    height: 76px;
+    line-height: 76px;
+    float: left;
+    margin-left: 16px;
+    font-size: 12px;
+    color: #666;
+    background: url(../../images/tiggle.png) no-repeat;
+    background-size: 9px 6px;
+    background-position: 26px center;
+    cursor: pointer;
+}
+
+.mortgage .dblb-btn {
+    width: 80px;
+    height: 28px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 26px;
+    background: #315b84;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+}
+
+.mortgage .dblb-btn:hover {
+    background: #3c6a9b;
+}
+
+.mortgage .el-pagination {
+    margin-bottom: 28px;
+    /*box-sizing: border-box;
+    padding-left: 50%;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.mortgage .el-pager li {
+    width: 28px;
+}
+
+/*modal*/
+
+.mortgage .edit-main {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1001;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 14px 28px 14px;
+}
+
+.mortgage .close-btn {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    background: #ccc url(../../images/nav/close.png) no-repeat center;
+    background-size: 12px 12px;
+}
+
+.mortgage .check-status-ul {
+    width: 100%;
+    height: 98px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 0 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.mortgage .check-status {
+    width: 64px;
+    height: 98px;
+    float: left;
+    position: relative;
+}
+
+.mortgage .check-status:not(:last-child):before {
+    content: " - - - - - -";
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    right: -78px;
+    font-weight: 800;
+    color: #ccc;
+}
+
+.mortgage .check-status.through:not(:nth-child(5)):before {
+    color: #fc511f;
+}
+
+.mortgage .check-status:not(:first-child) {
+    margin-left: 78px;
+}
+
+.mortgage .check-status span {
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+    display: block;
+    border-radius: 18px;
+    color: #fff;
+    background: #ccc;
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: "times new roman";
+}
+
+.mortgage .check-status.through span {
+    background: #fc511f url(../../images/nav/duigou.png) no-repeat center;
+}
+
+.mortgage .check-status p {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+.mortgage .dysq .must-input:before{
+    top:3px;
+}
+.mortgage .dysp .must-input:before{
+    top:0px;
+}
